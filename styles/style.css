@@ -1,0 +1,10 @@
+/* TODO: Figure out how to make the background (and just the background) color a different color. */
+*{
+    /* background-color: orange; */
+}
+
+.indent-p
+{
+    text-indent: 50px;
+    color: black;
+}
