@@ -3,8 +3,11 @@
     /* background-color: orange; */
 }
 
-.indent-p
+.indent
 {
-    text-indent: 50px;
-    color: black;
+    text-indent: 35px;
+}
+
+.portfolio-item{
+    /* background: whitesmoke; */
 }
