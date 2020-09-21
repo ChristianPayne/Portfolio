@@ -11,3 +11,11 @@
 .portfolio-item{
     /* background: whitesmoke; */
 }
+
+h3, p, a{
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font: bold;
+}
