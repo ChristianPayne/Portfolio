@@ -1,3 +1,6 @@
+
+GitHub Pages link: https://christianpayne.github.io/HW02-ResponsivePortfolio/
+
 # Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
 
 Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
@@ -29,7 +32,6 @@ First, you will use the Bootstrap CSS Framework to create a mobile responsive po
 
 * Use an HTML validation service to ensure that each page has valid HTML.
 
-GitHub Pages link: https://christianpayne.github.io/HW02-ResponsivePortfolio/
 
 ### Minimum Requirements
 
