@@ -29,6 +29,8 @@ First, you will use the Bootstrap CSS Framework to create a mobile responsive po
 
 * Use an HTML validation service to ensure that each page has valid HTML.
 
+GitHub Pages link: https://christianpayne.github.io/HW02-ResponsivePortfolio/
+
 ### Minimum Requirements
 
 * Functional, deployed application
