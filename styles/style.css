@@ -1,6 +1,6 @@
 /* TODO: Figure out how to make the background (and just the background) color a different color. */
 *{
-    /* background-color: orange; */
+    /* background-color: black; */
 }
 
 .indent
@@ -12,10 +12,21 @@
     /* background: whitesmoke; */
 }
 
-h3, p, a{
-    font-family: 'Open Sans', sans-serif;
-}
 h1{
     font-family: 'Open Sans', sans-serif;
     font: bold;
+}
+
+h2, h3, h4, p, a{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Note: I styled it this way based on HW01's implementation of a hero image. */
+.hero-image{
+    height: 500px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../Assets/site-images/Christian-Banner.jpg");
+    background-size: cover;
+    background-position: center;
 }
