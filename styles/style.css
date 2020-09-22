@@ -1,15 +1,6 @@
-/* TODO: Figure out how to make the background (and just the background) color a different color. */
-*{
-    /* background-color: black; */
-}
-
 .indent
 {
     text-indent: 35px;
-}
-
-.portfolio-item{
-    /* background: whitesmoke; */
 }
 
 h1{
