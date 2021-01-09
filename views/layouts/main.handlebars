@@ -8,17 +8,32 @@
   <link rel="stylesheet" type="text/css" href="/css/jass.css">
   <link rel="stylesheet" type="text/css" href="/css/style.css">
 
-  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+{{!-- Import local tailwind css --}}
+  <link href="./css/dist.css" rel="stylesheet">
 </head>
 
-<body>
+{{!-- Page background --}}
+<body class="bg-gray-100">
 
-  <nav>
-    <a href="/">Home</a>
-    <a href="/projects">Projects</a>
-  </nav>
+{{!-- Nav Bar --}}
+<nav class="bg-gray-900 p-2 flex justify-between items-center navbar">
+  
+  {{!-- Name --}}
+  <h1 onclick="goHome()" class="text-3xl inline-block p-4 text-gray-100 hover:text-gray-100 ">Christian Payne</h1>
+  <script>
+    function goHome () { window.location.href = '/'; }
+  </script>
+
+  <div class="">
+    <a href="/thefrontend" class="text-xl inline-block p-4 mx-3 text-gray-100 hover:text-gray-300">The Front End</a>
+    <a href="/thebackend" class="text-xl inline-block p-4 mx-3 text-gray-100 hover:text-gray-300">The Back End</a>
+
+  </div>
+</nav>
 
   {{{body}}}
+
+
 </body>
 
 </html>

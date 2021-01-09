@@ -8,9 +8,14 @@ router.get('/', async (req, res) => {
   }
 );
 
-router.get('/projects', async (req, res) => {
+router.get('/thefrontend', async (req, res) => {
   res.render('projects');
   res.status(200);
+});
+
+router.get('/thebackend', async (req, res) => {
+  // res.render('projects');
+  res.status(200).json('All good in the hood.');
 });
 
 // Login route

@@ -1,0 +1,31 @@
+<div class="flex-auto shadow-2xl bg-gray-100 rounded-xl p-4">
+    <h1 class="text-xl text-center">
+        {{projectName}}
+    </h1>
+
+    <!-- Item 1 video -->
+    <!-- For some reason, to show the video, the row has to be specified as row-12 -->
+    <div class="row-12 p-4">
+        <img class="rounded-full" src="{{heroImage}}" alt="{{heroImage}}">
+    </div>
+        
+    <!-- About -->
+    <div>
+        <h3 class="text-2xl">
+            About The Project
+        </h3>
+        <p class="indent">
+            {{aboutTheProject}}
+        </p>
+    </div>
+
+    <!-- Development -->
+    <div class="mt-3 text-2xl">
+        <h3>
+            Development
+        </h3>
+        <p class="indent">
+            {{development}}
+        </p>
+    </div>
+</div>
