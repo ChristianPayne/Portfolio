@@ -10,30 +10,28 @@
 
 {{!-- Import local tailwind css --}}
   <link href="./css/dist.css" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 {{!-- Page background --}}
 <body class="bg-gray-100">
 
 {{!-- Nav Bar --}}
-<nav class="bg-gray-900 p-2 flex justify-between items-center navbar">
+<nav class="bg-gray-900 p-1 flex justify-between items-center navbar">
   
   {{!-- Name --}}
-  <h1 onclick="goHome()" class="text-3xl inline-block p-4 text-gray-100 hover:text-gray-100 ">Christian Payne</h1>
-  <script>
-    function goHome () { window.location.href = '/'; }
-  </script>
+  <h1 onclick="document.location='/'" class="text-3xl inline-block p-4 text-gray-100 hover:text-gray-100 ">Christian Payne</h1>
 
   <div class="">
-    <a href="/thefrontend" class="text-xl inline-block p-4 mx-3 text-gray-100 hover:text-gray-300">The Front End</a>
-    <a href="/thebackend" class="text-xl inline-block p-4 mx-3 text-gray-100 hover:text-gray-300">The Back End</a>
+    <a href="/the-frontend" class="text-xl inline-block p-4 mx-3 text-gray-100 hover:text-gray-300">The Front End</a>
+    <a href="/the-api" class="text-xl inline-block p-4 mx-3 text-gray-100 hover:text-gray-300">The API</a>
+    {{!-- <a href="/the-backend" class="text-xl inline-block p-4 mx-3 text-gray-100 hover:text-gray-300">The Back End</a> --}}
 
   </div>
 </nav>
 
   {{{body}}}
 
-
 </body>
-
 </html>

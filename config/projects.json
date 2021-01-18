@@ -1,0 +1,26 @@
+[
+    {
+        "projectName": "BABELbox",
+        "heroImage": "./assets/BabelBox-Screenshot.png",
+        "aboutTheProject": "BABELbox is a collection of fun games that we have cultivated for the best party games around.",
+        "development": "Development",
+        "deployedLink": "https://babelbox.herokuapp.com/",
+        "gitRepo" : "https://github.com/https-github-com-steversonTong/BabelBox"
+    },
+    {
+        "projectName": "Tech Blog",
+        "heroImage": "./assets/TechBlog-Screenshot.png",
+        "aboutTheProject": "This is a simple implementation of a blog style website that is utilizing full stack technologies.",
+        "development": "text",
+        "deployedLink": "https://christianpayne-techblog.herokuapp.com/",
+        "gitRepo" : "https://github.com/ChristianPayne/HW14-TechBlog"
+    },
+    {
+        "projectName": "Lyrics You Now Know",
+        "heroImage": "./assets/LyricsYouNowKnow-Screenshot.png",
+        "aboutTheProject": "This was a fun project where you can search the lyrics of any song you want.",
+        "development": "text",
+        "deployedLink": "https://ralph626.github.io/Project-1-Team-5/",
+        "gitRepo" : "https://github.com/ChristianPayne/LyricsYouNowKnow"
+    }
+]

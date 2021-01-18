@@ -1,4 +1,5 @@
 const router = require('express').Router();
+const fs = require('fs');
 
 // GET all galleries for homepage
 router.get('/', async (req, res) => {
@@ -8,14 +9,22 @@ router.get('/', async (req, res) => {
   }
 );
 
-router.get('/thefrontend', async (req, res) => {
-  res.render('projects');
+router.get('/the-frontend', async (req, res) => {
+  const jsonProjects = fs.readFileSync('./config/projects.json');
+  const projectData = { projects : JSON.parse(jsonProjects) };
+  console.log(projectData);
+  res.render('projects', projectData);
+  res.status(200); 
+});
+
+router.get('/the-backend', async (req, res) => {
+  res.render('about');
   res.status(200);
 });
 
-router.get('/thebackend', async (req, res) => {
-  // res.render('projects');
-  res.status(200).json('All good in the hood.');
+router.get('/the-api', async (req, res) => {
+  res.render('contact-me');
+  res.status(200);
 });
 
 // Login route
