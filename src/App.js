@@ -3,12 +3,9 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/SiteWide/NavBar";
 import LandingPage from './pages/LandingPage';
 import ProjectsPage from './pages/ProjectsPage';
-import ContactMeModal from './components/ContactMeModal';
 import NotFoundPage from './pages/NotFoundPage';
 import Footer from './components/SiteWide/Footer';
-
-// TODO: Get react-router-dom to display different pages.
-// TODO: Make contact me a modal. That can be triggered from anywhere.
+import ContactMe from './pages/ContactMe';
 
 
 // Contact Me, Keep in touch, 
@@ -32,7 +29,7 @@ function App() {
               </Route>
 
               <Route exact path={["/contact-me"]}>
-              <ContactMeModal/>
+              <ContactMe/>
               </Route>
 
               {/* Custom 404 */}

@@ -8,27 +8,6 @@ class ProjectsPage extends Component {
         <ProjectCard projectName="Babel Box" screenshotSrc="Christian-Profile.jpg" onClick={()=>{alert("Project Modal")}}>
           <p>Description: Lorem Ipsum</p>
         </ProjectCard>
-        <ProjectCard projectName="Babel Box" screenshotSrc="Christian-Profile.jpg" onClick={()=>{alert("Project Modal")}}>
-          <p>Description: Lorem Ipsum</p>
-        </ProjectCard>
-        <ProjectCard projectName="Babel Box" screenshotSrc="Christian-Profile.jpg" onClick={()=>{alert("Project Modal")}}>
-          <p>Description: Lorem Ipsum</p>
-        </ProjectCard>
-        <ProjectCard projectName="Babel Box" screenshotSrc="Christian-Profile.jpg" onClick={()=>{alert("Project Modal")}}>
-          <p>Description: Lorem Ipsum</p>
-        </ProjectCard>
-        <ProjectCard projectName="Babel Box" screenshotSrc="Christian-Profile.jpg" onClick={()=>{alert("Project Modal")}}>
-          <p>Description: Lorem Ipsum</p>
-        </ProjectCard>
-        <ProjectCard projectName="Babel Box" screenshotSrc="Christian-Profile.jpg" onClick={()=>{alert("Project Modal")}}>
-          <p>Description: Lorem Ipsum</p>
-        </ProjectCard>
-        <ProjectCard projectName="Babel Box" screenshotSrc="Christian-Profile.jpg" onClick={()=>{alert("Project Modal")}}>
-          <p>Description: Lorem Ipsum</p>
-        </ProjectCard>
-        <ProjectCard projectName="Babel Box" screenshotSrc="Christian-Profile.jpg" onClick={()=>{alert("Project Modal")}}>
-          <p>Description: Lorem Ipsum</p>
-        </ProjectCard>
       </div>
     );
   }
