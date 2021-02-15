@@ -14,6 +14,7 @@ class LandingPage extends Component {
             Full time nerd.
             </p>
             
+            {/* Profile Picture Component */}
             <div className="px-4">
               <ProfilePicture />
             </div>
