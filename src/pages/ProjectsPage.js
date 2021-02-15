@@ -5,16 +5,28 @@ class ProjectsPage extends Component {
   render() {
     return (
       <div className="grid col-span-2">
-        <ProjectCard projectName="Babel Box" screenshotSrc="Christian-Profile.jpg" onClick={()=>{alert("Project Model")}}>
+        <ProjectCard projectName="Babel Box" screenshotSrc="Christian-Profile.jpg" onClick={()=>{alert("Project Modal")}}>
           <p>Description: Lorem Ipsum</p>
         </ProjectCard>
-        <ProjectCard projectName="Babel Box" screenshotSrc="Christian-Profile.jpg" onClick={()=>{alert("Project Model")}}>
+        <ProjectCard projectName="Babel Box" screenshotSrc="Christian-Profile.jpg" onClick={()=>{alert("Project Modal")}}>
           <p>Description: Lorem Ipsum</p>
         </ProjectCard>
-        <ProjectCard projectName="Babel Box" screenshotSrc="Christian-Profile.jpg" onClick={()=>{alert("Project Model")}}>
+        <ProjectCard projectName="Babel Box" screenshotSrc="Christian-Profile.jpg" onClick={()=>{alert("Project Modal")}}>
           <p>Description: Lorem Ipsum</p>
         </ProjectCard>
-        <ProjectCard projectName="Babel Box" screenshotSrc="Christian-Profile.jpg" onClick={()=>{alert("Project Model")}}>
+        <ProjectCard projectName="Babel Box" screenshotSrc="Christian-Profile.jpg" onClick={()=>{alert("Project Modal")}}>
+          <p>Description: Lorem Ipsum</p>
+        </ProjectCard>
+        <ProjectCard projectName="Babel Box" screenshotSrc="Christian-Profile.jpg" onClick={()=>{alert("Project Modal")}}>
+          <p>Description: Lorem Ipsum</p>
+        </ProjectCard>
+        <ProjectCard projectName="Babel Box" screenshotSrc="Christian-Profile.jpg" onClick={()=>{alert("Project Modal")}}>
+          <p>Description: Lorem Ipsum</p>
+        </ProjectCard>
+        <ProjectCard projectName="Babel Box" screenshotSrc="Christian-Profile.jpg" onClick={()=>{alert("Project Modal")}}>
+          <p>Description: Lorem Ipsum</p>
+        </ProjectCard>
+        <ProjectCard projectName="Babel Box" screenshotSrc="Christian-Profile.jpg" onClick={()=>{alert("Project Modal")}}>
           <p>Description: Lorem Ipsum</p>
         </ProjectCard>
       </div>

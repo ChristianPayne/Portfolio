@@ -1,10 +1,11 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Navbar from "./components/NavBar";
+import Navbar from "./components/SiteWide/NavBar";
 import LandingPage from './pages/LandingPage';
 import ProjectsPage from './pages/ProjectsPage';
 import ContactMeModal from './components/ContactMeModal';
 import NotFoundPage from './pages/NotFoundPage';
+import Footer from './components/SiteWide/Footer';
 
 // TODO: Get react-router-dom to display different pages.
 // TODO: Make contact me a modal. That can be triggered from anywhere.
@@ -40,6 +41,7 @@ function App() {
               </Route>
 
             </Switch>
+          <Footer/>
         </Router>
       </>
   );
