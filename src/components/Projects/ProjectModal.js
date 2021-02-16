@@ -7,7 +7,10 @@ function ProjectModal(props) {
   
   return (
     <div>
-      <Modal isOpen={props.modalIsOpen} onRequestClose={()=> {props.setModalIsOpen(false)}}>
+      <Modal isOpen={props.modalIsOpen} onRequestClose={()=> {
+        // props.setModalIsOpen(false)
+        
+        }}>
         {/* Spacing Wrappers */}
         <div className="md:m-12">
           <button className="p-4 bg-green-400 bg-opacity-70 rounded" onClick={()=>{props.setModalIsOpen(false)}}>Close</button>

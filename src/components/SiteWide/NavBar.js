@@ -6,9 +6,8 @@ function Navbar() {
       
       {/* Left side */}
       <div className="flex justify-between items-center">
-        {/* <img src="" alt="Logo" /> */}
-        {/* <h1 className="text-6xl">CP</h1> */}
-        <a href="/" className='text-3xl'>Christian Payne</a> {/*ml-24*/}
+        <img src="./assets/CPFav-02.png" alt="Logo" className="w-24"/>
+        <a href="/" className='ml-12 text-3xl'>Christian Payne</a>
       </div>
 
       {/* Right side */}

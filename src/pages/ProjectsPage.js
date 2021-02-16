@@ -7,31 +7,31 @@ class ProjectsPage extends Component {
       projectName: "BABELBox",
       screenshotSrc: "BabelBox-Screenshot.png",
       screenshotAlt: "BABELBoxSS",
+      link: "https://github.com/https-github-com-steversonTong/BabelBox"
     },
     {
       projectName: "Lyrics You Now Know",
       screenshotSrc: "LyricsYouNowKnow-Screenshot.png",
       screenshotAlt: "LyricsYouNowKnowSS",
+      link:"https://github.com/ChristianPayne/LyricsYouNowKnow"
     },
     {
       projectName: "Ennesults",
-      screenshotSrc: "Christian-Profile.jpg",
-      screenshotAlt: "BabelBoxSS",
+      screenshotSrc: "blank_robot.jpg",
+      screenshotAlt: "EnnesultsIcon",
+      link: "https://github.com/ChristianPayne/Ennesults"
     },
     {
       projectName: "Fitness Tracker",
-      screenshotSrc: "Christian-Profile.jpg",
-      screenshotAlt: "BabelBoxSS",
+      link: "https://github.com/ChristianPayne/HW17-FitnessTracker"
     },
     {
       projectName: "Employee Directory",
-      screenshotSrc: "Christian-Profile.jpg",
-      screenshotAlt: "BabelBoxSS",
+      link: "https://github.com/ChristianPayne/EmployeeDirectory"
     },
     {
       projectName: "Portfolio",
-      screenshotSrc: "Christian-Profile.jpg",
-      screenshotAlt: "BabelBoxSS",
+      link: "https://github.com/ChristianPayne/Portfolio"
     },
   ];
 
