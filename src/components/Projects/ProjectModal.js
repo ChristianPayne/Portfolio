@@ -1,23 +1,22 @@
-import React, { Component, useState } from 'react';
+import React from 'react';
 import Modal from "react-modal";
 
 Modal.setAppElement("#root");
 
-
-class ProjectModal extends Component {
+function ProjectModal(props) {
   
-  [this.modalIsOpen, this.setModalIsOpen] = useState(false);
-
-  render() {
-    return (
-      <div>
-        {/* TODO: Modal */}
-        <Modal isOpen={this.modalIsOpen} onRequestClose={()=> {this.setModalIsOpen(false)}}>
+  return (
+    <div>
+      <Modal isOpen={props.modalIsOpen} onRequestClose={()=> {props.setModalIsOpen(false)}}>
+        {/* Spacing Wrappers */}
+        <div className="md:m-12">
+          <button className="p-4 bg-green-400 bg-opacity-70 rounded" onClick={()=>{props.setModalIsOpen(false)}}>Close</button>
           
-        </Modal>
-      </div>
-    );
-  }
+        </div>
+        {props.children}
+      </Modal>
+    </div>
+  );
 }
 
 export default ProjectModal;
