@@ -21,6 +21,8 @@ function App() {
               {/* Home Page */}
               <Route exact path={["/", "/about-me"]}>
                 <LandingPage/>
+                <ProjectsPage/>
+                <ContactMe/>
               </Route>
 
               {/* Projects Page */}
@@ -29,7 +31,6 @@ function App() {
               </Route>
 
               <Route exact path={["/contact-me"]}>
-              <ContactMe/>
               </Route>
 
               {/* Custom 404 */}
@@ -38,7 +39,7 @@ function App() {
               </Route>
 
             </Switch>
-          <Footer/>
+          {/* <Footer/> */}
         </Router>
       </>
   );

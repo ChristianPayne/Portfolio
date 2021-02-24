@@ -2,21 +2,38 @@ import React from "react";
 
 function Navbar() {
   return (
-    <nav className="flex justify-between p-10 items-center">
-      
+    <nav className="flex justify-between p-6 sm:p-10 items-center">
       {/* Left side */}
       <div className="flex justify-between items-center">
-        <img src="./assets/CPFav-02.png" alt="Logo" className="w-24"/>
-        <a href="/" className='ml-12 text-3xl'>Christian Payne</a>
+        <button
+          href="/"
+          className="p-2"
+          onClick={() => {
+            window.location = "/";
+          }}
+        >
+          <img src="./assets/CPFav-02.png" alt="Logo" className="w-16 sm:w-24" />
+        </button>
+        <a href="/" className="ml-4 sm:ml-12 text-xl sm:text-3xl hidden md:inline-block">
+          Christian Payne
+        </a>
       </div>
 
       {/* Right side */}
-      <div className="flex justify-end">
-        <a href="/projects" className="px-6 py-4">Projects</a>
-        <a href="/contact-me" className="px-6 py-4">Contact Me</a>
+      <div className="flex justify-end hidden sm:flex">
+        <a href="/projects" className="px-6 py-4">
+          Projects
+        </a>
+        <a href="/contact-me" className="px-6 py-4">
+          Contact Me
+        </a>
       </div>
-
-      
+      <div className="flex justify-end flex sm:hidden">
+        <button className="p-2" onClick={() => {}}>
+          <img src="./assets/menu.png" alt="menuIcon" className="w-5" />
+          
+        </button>
+      </div>
     </nav>
   );
 }

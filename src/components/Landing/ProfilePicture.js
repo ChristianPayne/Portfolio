@@ -1,10 +1,10 @@
 import React from 'react';
 
-function ProfilePicture () {
+function ProfilePicture (props) {
   return (
     <>
       {/* Profile picture. */}
-      <img src="assets/Christian-Profile.jpg" alt="Profile Pic" />
+      <img className={props.className} src="assets/Christian-Profile.jpg" alt="Profile Pic" />
     </>
   );
 }

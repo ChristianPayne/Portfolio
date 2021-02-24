@@ -1,17 +1,29 @@
-import React, { Component } from 'react';
+import React from 'react';
+import emailjs from 'emailjs-com';
 
-class ContactMe extends Component {
-  render() {
-    return (
-      <div>
-        <div className="flex bg-green-400 justify-around m-6 w-1/2 mx-auto">
-        <button className="p-4 bg-gray-800 rounded-2xl text-xl">Connect</button>
-        <button className="p-4 bg-gray-800 rounded-2xl text-xl">Call</button>
-        <button className="p-4 bg-gray-800 rounded-2xl text-xl">Email</button>
-      </div>
-      </div>
-    );
+export default function ContactMe() {
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
   }
-}
 
-export default ContactMe;
+  return (
+    <form className="contact-form p-8 w-1/2 grid grid-cols-1 gap-4" onSubmit={sendEmail}>
+      <input type="hidden" name="contact_number" />
+      <label>Name</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Message</label>
+      <textarea name="message" />
+      <input className="w-1/4" type="submit" value="Send" />
+    </form>
+  );
+}
