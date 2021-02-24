@@ -4,7 +4,7 @@ import Navbar from "./components/SiteWide/NavBar";
 import LandingPage from './pages/LandingPage';
 import ProjectsPage from './pages/ProjectsPage';
 import NotFoundPage from './pages/NotFoundPage';
-import Footer from './components/SiteWide/Footer';
+// import Footer from './components/SiteWide/Footer';
 import ContactMe from './pages/ContactMe';
 
 
@@ -12,7 +12,7 @@ import ContactMe from './pages/ContactMe';
 
 function App() {
   return(
-      <>
+      <div className="bg-gray-200 h-full min-h-screen">
         <Router>
           {/* NavBar */}
           <Navbar />
@@ -41,7 +41,7 @@ function App() {
             </Switch>
           {/* <Footer/> */}
         </Router>
-      </>
+      </div>
   );
 }
 

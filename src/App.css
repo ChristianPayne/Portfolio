@@ -1,6 +1,6 @@
-body
+body, .bg
 {
-  background-color: rgba(229, 231, 235);
+  /* background-color: rgba(229, 231, 235); */
 }
 
 .footer{
