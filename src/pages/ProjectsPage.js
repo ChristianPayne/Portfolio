@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import ProjectCard from '../components/Projects/ProjectCard';
 
-class ProjectsPage extends Component {
-  projects = [
+const ProjectsPage = () => {
+  const projects = [
     {
       projectName: "BABELBox",
+      description: "BabelBox description",
       screenshotSrc: "BabelBox-Screenshot.png",
       screenshotAlt: "BABELBoxSS",
       link: "https://github.com/https-github-com-steversonTong/BabelBox"
@@ -35,20 +36,18 @@ class ProjectsPage extends Component {
     },
   ];
 
-  render() {
-    return (
-      <div className="grid md:grid-cols-2">
-        {
-          this.projects.map((value, index)=> {
-            return (
-            <ProjectCard key={index} {...value}/>
-            )
-          })
-        }
-        
-      </div>
-    );
-  }
+  return (
+    <div className="grid md:grid-cols-2">
+      {
+        projects.map((value, index)=> {
+          return (
+          <ProjectCard key={index} {...value}/>
+          )
+        })
+      }
+      
+    </div>
+  );
 }
 
 export default ProjectsPage;

@@ -19,18 +19,10 @@ function App() {
             <Switch>
 
               {/* Home Page */}
-              <Route exact path={["/", "/about-me"]}>
+              <Route exact path={["/", "/:project"]}>
                 <LandingPage/>
                 <ProjectsPage/>
                 <ContactMe/>
-              </Route>
-
-              {/* Projects Page */}
-              <Route exact path={["/projects"]}>
-                <ProjectsPage/>
-              </Route>
-
-              <Route exact path={["/contact-me"]}>
               </Route>
 
               {/* Custom 404 */}
