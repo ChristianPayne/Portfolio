@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Icon from '../SiteWide/Icon';
 
 const ProjectCard = (props) => {
-  // const [modalIsOpen, setModalIsOpen] = useState(false);
   const imgSrc = props.screenshotSrc ? ("./assets/" + props.screenshotSrc) : "./assets/CPFav-01.png";
   const projectLink = props.link ? props.link : "https://github.com/ChristianPayne"
   

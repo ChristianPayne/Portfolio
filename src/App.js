@@ -6,6 +6,7 @@ import ProjectsPage from './pages/ProjectsPage';
 import NotFoundPage from './pages/NotFoundPage';
 // import Footer from './components/SiteWide/Footer';
 import ContactMe from './pages/ContactMe';
+import ButtonLink from './components/SiteWide/ButtonLink';
 
 
 // Contact Me, Keep in touch, 
@@ -19,9 +20,15 @@ function App() {
             <Switch>
 
               {/* Home Page */}
-              <Route exact path={["/", "/:project"]}>
+              <Route exact path={["/"]}>
                 <LandingPage/>
                 <ProjectsPage/>
+                <div className="flex justify-center p-8">
+                  <ButtonLink className="w-full p-4">Contact Me</ButtonLink>
+                </div>
+              </Route>
+
+              <Route exact path="/contact">
                 <ContactMe/>
               </Route>
 

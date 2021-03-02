@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { useParams } from "react-router-dom";
 import ProfilePicture from '../components/Landing/ProfilePicture';
 import Header from "../components/SiteWide/Header";
+import ButtonLink from "../components/SiteWide/ButtonLink";
 
 const LandingPage = function () {
 
@@ -24,7 +25,12 @@ const LandingPage = function () {
           <div className="px-4 row-start-1 md:row-start-2 justify-self-center md:justify-self-start">
             <ProfilePicture className="rounded-full md:rounded-none" />
           </div>
+          
+          <div className="flex justify-center mb-8">
+            <ButtonLink className="w-full py-4" href="/contact">Contact Me</ButtonLink>
+          </div>
         </div>
+
       </div>
     </>
   );
