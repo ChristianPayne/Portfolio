@@ -4,7 +4,7 @@ function ProfilePicture (props) {
   return (
     <>
       {/* Profile picture. */}
-      <img className={props.className} src="assets/Christian-Profile.jpg" alt="Profile Pic" />
+      <img className={props.className} src="assets//images/Christian-Profile.jpg" alt="Profile Pic" />
     </>
   );
 }

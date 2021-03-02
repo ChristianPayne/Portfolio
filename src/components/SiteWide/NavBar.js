@@ -13,7 +13,7 @@ function Navbar() {
               window.location = "/";
             }}
           >
-            <img src="./assets/CPFav-02.png" alt="Logo" className="w-16 sm:w-24" />
+            <img src="./assets/images/CPFav-02.png" alt="Logo" className="w-16 sm:w-24" />
           </button>
           <a href="/" className="ml-4 sm:ml-12 text-xl sm:text-3xl hidden md:inline-block">
             Christian Payne
